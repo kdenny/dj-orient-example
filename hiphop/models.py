@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from Djangorient.DjangorientModels import *
+# from Djangorient.DjangorientModels import *
+from django_orientdb.models import *
 
 from django.db import models
 

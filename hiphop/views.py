@@ -11,7 +11,8 @@ def index(request):
     artists = Artist.objects.all()
 
     artist = Artist.objects.filter(name = "Kanye West")[0]
-    a = artist.out_artist_album[0]
+    print(artist.name)
+    # a = artist.out_artist_album[0]
 
     aalbs = artist_album.objects.filter(id=a)
     album_id = aalbs[0].in_vertex

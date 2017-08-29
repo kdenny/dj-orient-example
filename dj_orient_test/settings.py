@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hiphop'
+    'hiphop',
+    'django_orientdb'
 ]
 
 MIDDLEWARE = [
@@ -85,8 +86,8 @@ DJANGORIENT_SETTINGS = {
     'host': 'localhost',
     'port': '2480',
     'username': 'root',
-    'password': # Your password here,
-    'name': 'hiphopdb',
+    'password': 'America3!',
+    'name': 'hiphopdb'
 }
 
 
